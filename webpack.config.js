@@ -7,7 +7,7 @@ const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
 const WebpackErrorReporting = require('bc-webpack-error-reporting-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-const port = 3000;
+const port = 4200;
 let publicUrl = `http://localhost:${port}`;
 if(process.env.GITPOD_WORKSPACE_URL){
   const [schema, host] = process.env.GITPOD_WORKSPACE_URL.split('://');
